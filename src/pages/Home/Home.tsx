@@ -38,7 +38,7 @@ export default function HomePage() {
       });
   };
 
-  function handleSearch(e) {
+  function handleSearch(e: React.ChangeEvent<HTMLInputElement>) {
     setQuery(e.target.value);
   }
 
